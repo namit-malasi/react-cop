@@ -1,6 +1,4 @@
 import React from 'react';
-import Level from './level';
-import Session from './session';
 import './style.css';
 
 function Category()
@@ -17,8 +15,6 @@ function Category()
         <option value="fullstack">Full Stack</option>
         <option value="softskills">Soft Skills</option>
       </select><br></br><br></br>
-      <Level/>
-      <Session/>
       </div>        
         );
 }

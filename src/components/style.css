@@ -1,3 +1,39 @@
+body{
+    background-color: #F8F8F8;
+}
+h1{
+    text-align: center;
+  }
+   form{
+     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 45%;
+    margin: auto; 
+   } 
+   label{
+     font-size: 19px;
+   }
+  button{
+    border-radius: 12%;
+    text-align: center;
+    margin: 5px;
+  }
+  #submit{
+    background-color: #FF7900;
+    width: 110px;
+  }
+  #cancel
+  {
+    background-color: #818A8F;
+    width: 110px;
+  }
+  textarea::placeholder{
+    text-align: center;
+    padding-top: 8px;
+  }
 .components{
     width: 450px;
     height:40px;
@@ -12,4 +48,8 @@ button{
 }
 #category1{
     text-align: center;
+}
+#speakername{
+    width: 450px;
+    height: 40px;
 }

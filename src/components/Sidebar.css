@@ -1,0 +1,27 @@
+#container
+{
+ margin-top: 90px;
+ background-color: #002F5F;
+ height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+#container a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+    color: white;
+}
+#nomination{
+width: 180px;
+height: 40px;
+border-radius: 17px;
+color: white;
+background-color: #FF7900;
+}
