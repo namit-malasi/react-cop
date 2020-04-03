@@ -7,8 +7,8 @@ function Navbar()
 {
     return(<div>
         <nav>
-        <img src={logo}></img>
-        <img src={logo1}></img>
+        <a href="#"><img src={logo}></img></a>
+        <a href="#"><img src={logo1}></img></a>
         <hr></hr>
             <ul>
                 <li>About COP</li>

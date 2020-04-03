@@ -6,9 +6,9 @@ function Sidebar()
     return(<div>
         <div id="container">
     <button id="nomination">+Nominate for session</button> 
-    <a href="www.google.com">Sessions</a>   
-    <a>Mailing List</a> 
-    <a>Calender Invite</a> 
+    <a href="#">Sessions</a>   
+    <a href="#">Mailing List</a> 
+    <a href="#">Calender Invite</a> 
         </div>
         </div>
     );

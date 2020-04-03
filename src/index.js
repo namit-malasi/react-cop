@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Category from './components/Category';
-import Topcomponent from './components/Topcomponent';
+import NominatedSession from './components/NominatedSession';
 
 
-ReactDOM.render(<Topcomponent/>,document.getElementById('root')
+ReactDOM.render(<NominatedSession/>,document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change

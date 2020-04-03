@@ -3,17 +3,12 @@ import './style.css';
 
 function Category()
 {
+  let CategoryList=['Frontend-Web','Backend','Agile','Mixed','Quality','Database','FullStack','Soft-Skills'];
+  let list=CategoryList.map((cat)=><option>{cat}</option>)
     return(<div>
         <label for="category" id="category1">Select Category:</label><br></br><br></br>
-    <select id="category" required className="components">
-        <option value="frontend-web">Frontend-Web</option>
-        <option value="backend">Backend</option>
-        <option value="agile">Agile</option>
-        <option value="mixed">Mixed</option>
-        <option value="quality">Quality</option>
-        <option value="database">Database</option>
-        <option value="fullstack">Full Stack</option>
-        <option value="softskills">Soft Skills</option>
+    <select id="category" required className="components" required>
+        {list}
       </select><br></br><br></br>
       </div>        
         );

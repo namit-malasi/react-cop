@@ -1,38 +1,54 @@
 body{
     background-color: #F8F8F8;
+    font-family: roboto-condensed;
 }
 h1{
-    text-align: center;
+    margin-left:400px;
+    color:  #002F5F;
   }
    form{
      background-color: white;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    width: 45%;
+    width: 44%;
     margin: auto; 
+    color:  #002F5F;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-right: 30px;
    } 
    label{
+       display: flex;
+       justify-content:start;
      font-size: 19px;
    }
-  button{
-    border-radius: 12%;
+  .buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;    
+  }
+  .buttons button{
+    width: 75px;
+    height:32px;
+    border-radius: 11%;
     text-align: center;
     margin: 5px;
-  }
+    
+
+}
   #submit{
     background-color: #FF7900;
     width: 110px;
+    border-color: #FF7900;
   }
   #cancel
   {
     background-color: #818A8F;
     width: 110px;
+
   }
   textarea::placeholder{
-    text-align: center;
-    padding-top: 8px;
+       padding-top: 8px;
   }
 .components{
     width: 450px;
@@ -41,10 +57,6 @@ h1{
 label{
     color: #394A58;
     font-family: Roboto-condensed;
-}
-button{
-    width: 70px;
-    height:30px;
 }
 #category1{
     text-align: center;
